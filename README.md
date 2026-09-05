@@ -1,32 +1,129 @@
-# React + TypeScript + Vite
+SpaceShare
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Your Space. Your Time. Your Price.
 
-Currently, two official plugins are available:
+SpaceShare is an AI-powered marketplace that helps users discover, compare, and book local spaces by the hour through natural language conversations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Instead of paying for an entire day, users can find exactly the space they need for exactly the amount of time they need.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🌟 Problem
 
-## Expanding the Oxlint configuration
+Traditional space-booking platforms have several limitations:
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- Full-day booking requirements for short-term needs
+- Hidden costs for hourly users
+- Complex filtering systems
+- Poor personalization and discovery experience
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+SpaceShare solves these issues using AI-powered intent understanding and intelligent recommendations.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+💡 Solution
+
+Simply describe what you need:
+
+«"Quiet desk tomorrow under ₹200"»
+
+Our AI understands:
+
+- Budget
+- Location
+- Time requirements
+- User preferences
+- Context and intent
+
+and instantly recommends the most relevant spaces.
+
+---
+
+✨ Key Features
+
+🧠 AI-Powered Search
+
+- Natural language space discovery
+- Intent-aware recommendations
+- Conversational user experience
+
+🔍 Smart Discovery Pipeline
+
+- User Query Processing
+- LLM-based Intent Parsing
+- Database Retrieval
+- Intelligent Ranking
+- Personalized Results
+
+🗺️ Interactive Exploration
+
+- Split-view map and listing interface
+- Real-time comparison of spaces
+- Price, ratings, and location insights
+
+📅 Seamless Booking
+
+- Integrated booking flow
+- Instant QR-based access pass
+- Unified host communication
+
+---
+
+🛠️ Tech Stack
+
+Frontend
+
+- React.js
+- Tailwind CSS
+- Framer Motion
+
+Backend
+
+- Node.js
+- Supabase
+- MongoDB
+
+AI & Intelligence
+
+- Groq API (LLM)
+- XGBoost Ranking Engine
+
+---
+
+🏗️ Architecture
+
+User Request
+↓
+LLM Intent Parser
+↓
+Database Retrieval
+↓
+Ranking Engine (XGBoost)
+↓
+Personalized Results
+↓
+Booking & QR Generation
+
+---
+
+🚀 Future Roadmap
+
+- Expand into multiple micro-rental categories
+- AI-powered host listing optimization
+- Dynamic demand-based pricing
+- IoT smart lock integration
+- Fully automated keyless access
+
+---
+
+👥 Team
+
+Built during the Beyond GenAI Hackathon in collaboration with Amadeus & Contentstack.
+
+---
+
+📌 Vision
+
+Turn empty hours into income while helping users find the perfect space exactly when they need it.
+
+Your Space. Your Time. Your Price.
